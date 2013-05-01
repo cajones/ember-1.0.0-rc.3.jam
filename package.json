@@ -13,7 +13,7 @@
       "deps": ["handlebars", "jquery"],
       "exports": "Em"
     },
-    "include": ["ember-1.0.0.rc.3.min.js"]
+    "include": ["ember-1.0.0-rc.3.min.js"]
   },
   "repositories": [
     {
