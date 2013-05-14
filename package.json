@@ -1,16 +1,16 @@
 {
   "name": "ember",
-  "version": "1.0.0-rc.3-jam.1",
+  "version": "1.0.0-rc.3-jam.3",
   "description": "A framework for creating ambitious web applications.",
   "homepage": "http://www.emberjs.com/",
   "jam": {
     "main": "ember-1.0.0-rc.3.min.js",
     "dependencies": {
-      "handlebars": ">=1.0.0-beta.6.jam.1",
+      "jamjs-handlebars": ">=1.0.0-rc.3-jam.1",
       "jquery": ">1.7.1"
     },
     "shim": {
-      "deps": ["handlebars", "jquery"],
+      "deps": ["jamjs-handlebars", "jquery"],
       "exports": "Em"
     },
     "include": ["ember-1.0.0-rc.3.min.js"]
